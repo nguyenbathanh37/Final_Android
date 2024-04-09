@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/my_color" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng bạn đến với Phích Coffee"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/logo_coffee"
+            android:layout_gravity="right"
+            android:layout_marginTop="35dp"/>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_wave"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/my_color"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="16dp"
+            android:background="@drawable/border"
+            android:hint="Nhập tên đăng nhập"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="16dp"
+            android:layout_gravity="center"
+            android:hint="Nhập mật khẩu"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_log_in"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Đăng nhập"
+            android:background="@drawable/btn_login"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/T_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng kí"
+                android:focusable="false"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/my_color"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quên mật khẩu?"
+                android:focusable="false"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="120dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="OR"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_login_facebook"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:drawableStart="@drawable/facebook"
+                android:paddingRight="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Facebook"
+                android:textSize="13sp"
+                android:textAllCaps="false"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_login_google"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:layout_gravity="center_horizontal"
+                android:drawableStart="@drawable/google"
+                android:paddingRight="25dp"
+                android:layout_marginLeft="15dp"
+                android:text="Google"
+                android:textSize="13sp"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

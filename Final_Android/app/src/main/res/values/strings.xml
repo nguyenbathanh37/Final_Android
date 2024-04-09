@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Phích COFFEE</string>
+
+    <!--    facebook-->
+    <string name="facebook_app_id">861464245074878</string>
+    <string name="fb_login_protocol_scheme">fb861464245074878</string>
+    <string name="facebook_client_token">56789</string>
+
+    <!--    Bottom navigation-->
+    <string name="home">Trang chủ</string>
+    <string name="oder">Đơn hàng</string>
+    <string name="voucher">Ưu đãi</string>
+    <string name="setting">Khác</string>
+    <string name="shopping_card">Giỏ hàng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

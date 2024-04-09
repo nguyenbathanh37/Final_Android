@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_about_me.xml" value="0.1980495123780945" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_change_password.xml" value="0.20030349013657056" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_classify_product.xml" value="0.20030349013657056" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_dieu_khoan.xml" value="0.1980495123780945" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_get_otp_password.xml" value="0.264" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_get_otp_register.xml" value="0.264" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_ho_tro_thanh_toan.xml" value="0.1980495123780945" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_home.xml" value="0.20030349013657056" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_info.xml" value="0.1980495123780945" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_lien_he.xml" value="0.1980495123780945" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_main.xml" value="0.20030349013657056" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_register.xml" value="0.20030349013657056" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/activity_shopping_cart.xml" value="0.264" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/fragment_setting.xml" value="0.6" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/item_category.xml" value="0.20030349013657056" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/item_order.xml" value="0.275" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/item_popular.xml" value="0.1" />
+        <entry key="..\:/Application/New folder/Final_Android/Final_Android/app/src/main/res/layout/item_product.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

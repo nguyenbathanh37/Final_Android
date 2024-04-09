@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Other.DieuKhoanActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHÍNH SÁCH BẢO MẬT\nTHÔNG TIN"
+                android:textColor="@color/orange"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BẢO MẬT THÔNG TIN"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chính sách bảo mật thông tin này bao gồm các quy định liên quan đến việc thu nhập, sử dụng tiết lộ và/hoặc xử lý Thông Tin Khách Hàng (như: Được định nghĩa bên dưới) mà Quý khách đã cung cấp cho Công Ty CP TM dịch vụ trà cà phê CN hoặc Công ty lưu giữ của quý khách trong quá trình Quý khách đăng ký tài khoản, mua hàng, sử dụng các sản phẩm và dịch vụ của Công ty, hoặc khi Quý khách giao dịch với Công ty thông qua https://phichcoffee.com. Chính sách này cũng quy định về nghĩa vụ của công ty đối với thông tin Khách hàng cũng như sự chấp thuận của Quý khách đối với việc thu nhập, sử dụng, tiết lộ và/hoặc xử lý Thông tin Khách hàng của Công ty\n"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="THÔNG TIN KHÁCH HÀNG"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông tin Quý khách cung cấp cho Công ty:\n\nThông tin này bao gồm nhưng không giới hạn ở họ và tên, địa chỉ email, số điện thoại, địa chỉ giao hàng, tài khoản ngân hàng và thông tin thanh toán, thông tin trên biểu mẫu, tờ khai, đơn đăng ký, phiếu khảo sát, đơn phản hồi hoặc khiếu nại (dù trực tiếp hay bằng hình thức khác), các thông tin được gửi bởi hoặc cung cấp thông qua các thiết bị được sử dụng để truy cập vào WEBSITE, hoặc các thông tin mà Quý khách chủ động gửi đến cho Công ty.\n\nThông tin có dược do sự tương tác của Quý khách với Công ty:\n\nThông tin này bao gồm bất kỳ thông tin nào khác về Quý khách khi Quý khách trao đổi với Công ty qua bất kỳ phương tiện nào (điện thoại, thư từ, fax, gặp gỡ trực tiếp, email, mạng xã hội, các ứng dụng), đăng nhập và sử dụng Sản phẩm-Dịch vụ hoặc tương tác thông qua WEBSITE, kể cả việc Quý khách đã sử dụng như thế nào."
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="THÔNG TIN LIÊN HỆ"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trong trường hợp Quý khách có bất kỳ thắc mắc nào liên quan đến Chính sách bảo mật này, Quý khách có thể liên hệ Công ty theo thông tin dưới đây:\n\nCông ty cổ phần thương mại dịch vụ trà cà phê VN\nĐịa chỉ: 19 Nguyễn Hữu Thọ, Phường Tân Phong, Quận 7, TP Hồ Chí Minh\nEmail: hello@phichcoffee.com\nHotline: 034.263.8390\n"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HIỆU LỰC"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chính sách bảo mật này có hiệu lực kể từ ngày 24/12/2022"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
